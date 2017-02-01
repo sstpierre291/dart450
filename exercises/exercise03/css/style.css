@@ -1,0 +1,8 @@
+#trump {
+  background-image:url(../images/TrumpDebate_CNN.gif);
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  cursor: pointer;
+  float:left;
+}
