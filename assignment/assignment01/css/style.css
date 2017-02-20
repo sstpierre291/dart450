@@ -1,0 +1,149 @@
+html, body {
+  height: : 100%;
+  width: 100%;
+  background-color: black;
+}
+ button {
+   border-radius: 8px;
+   text-align: center;
+   padding: 15px 32px;
+   text-decoration: none;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   position:absolute;
+   top:90%;
+ }
+
+ #citation {
+   color:white;
+   opacity: .1;
+   font-size: 12px;
+   font-family: helvetica;
+   width: 200px;
+ }
+ #citation:hover {
+   opacity: 1;
+ }
+
+a:link {
+  color:white;
+  text-decoration: none;
+}
+a:hover {
+  color:white;
+  text-decoration: none;
+}
+a:visited {
+  color:white;
+  text-decoration: none;
+}
+a:active {
+  color:white;
+  text-decoration: none;
+}
+
+/*Button style */
+#wisdom {
+  background-color: black;
+  color:white;
+  border:2px solid white;
+  left: 20%;
+}
+
+#wisdom:hover{
+  border:2px solid #008CBA;
+  color:#008CBA;
+}
+
+#justice {
+  background-color: black;
+  color:white;
+  border:2px solid  white;
+  left:50%;
+}
+
+#justice:hover{
+  border:2px solid #67C18C;
+  color:#67C18C;
+}
+
+#love {
+  background-color: black;
+  color:white;
+  border:2px solid white;
+  left:80%;
+}
+
+#love:hover{
+  border:2px solid #D46360;
+  color:#D46360;
+}
+
+/*shape style */
+.shapewisdom {
+  position:relative;
+  background-color: #CFEAE2;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin:10px;
+
+  animation-name: wisdom_ani;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  }
+
+@keyframes wisdom_ani {
+  0% {left:30%; background-color: #CFEAE2;}
+  25% {left:50%; background-color: #008CBA;}
+  50% {left:70%; background-color: #CFEAE2;}
+  75% {left:50%; background-color: #008CBA;}
+  100% {left:30%; background-color: #CFEAE2;}
+}
+
+
+.shapejustice {
+  position:relative;
+  background-color: #E1F1E7;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin:10px;
+
+  animation-name: justice_ani;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  }
+
+@keyframes justice_ani {
+  0% {left:30%; background-color: #E1F1E7;}
+  25% {left:50%; background-color: #67C18C;}
+  50% {left:70%; background-color: #E1F1E7;}
+  75% {left:50%; background-color: #67C18C;}
+  100% {left:30%; background-color: #E1F1E7;}
+}
+
+.shapelove {
+  position:relative;
+  background-color: #F6DFDE;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+
+  animation-name: love_ani;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes love_ani {
+  0% {left:30%; background-color: #F6DFDE;}
+  25% {left:50%; background-color: #D46360;}
+  50% {left:70%; background-color: #F6DFDE;}
+  75% {left:50%; background-color: #D46360;}
+  100% {left:30%; background-color: #F6DFDE;}
+}
