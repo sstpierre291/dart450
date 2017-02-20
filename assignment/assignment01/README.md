@@ -1,1 +1,6 @@
+Artist Statement
+by Simon St-Pierre
 
+To me, philosophically and intellectually speaking, the greatest aspect of Internet is the ability to freely share contents and informations. I chose to use a speech from Martin Luther King Jr. Beyond Vietnam: A Time to Break Silence, to make a tribute to what I consider one of the most vibrant text ever written but also because I discover this speech because of internet.
+
+The visual aspect of the website is meant to show represent the sharing of information in the internet. As you click to share, wisdom, justice and love. It had shapes and by keep clicking it slowly get out of hand as information on the internet to travel quickly and are also duplicated quickly. Each time you click on the button, a bot say the line “...cannot be reconcile with wisdom, justice and love” , the strongest line of Martin Luther King Jr.'s speech, in a monotonous and totally disconnected manners. The line itself without any context around it doesn't mean much and could almost be interpreted in many way without having a clear idea of what it is about. This is meant to represent how information get compressed in website such as Facebook and Twitter without giving any precious context to understand the deep meaning of some very strong line and can lead to misinformation.
