@@ -29,6 +29,10 @@ function CreateWisdom () {
   var wisdomShapes = new Array(TOTAL_DIVS);
     for (var i = 0; i <TOTAL_DIVS; i++) {
       var div = $('<div class="shapewisdom"></div>');
+      var duration = Math.random() * 10;
+      div.css({
+        animationDuration: duration + "s"
+      });
       $('body').append(div);
       wisdomShapes[i] = div;
     };
