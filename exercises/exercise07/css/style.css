@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  margin-top: 400px;
+  margin-bottom: 400px;
+}
+
+#test {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.line {
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  opacity: 0;
+  visibility: hidden;
+  color:gold;
+  margin:300px;
+}
+
+.visible {
+  visibility: visible;
+}
