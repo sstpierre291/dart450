@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+
+#sentence {
+  font-family: 'Diplomata SC', cursive;
+  font-size: 50px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-image: url(../image/bg.jpeg);
+  background-size: cover;
+}
