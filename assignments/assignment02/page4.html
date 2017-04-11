@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -18,27 +16,28 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
 
   <!-- We include our own script file(s) -->
-  <script src="js/script1.js" content="text/javascript"></script>
+  <script src="js/script4.js" content="text/javascript"></script>
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 
 </head>
 
 <body>
 
-  <h1>Be the hero of this game</h1>
+  <h1>Inside the manor</h1>
 
-  <div id=header_index>
-    <p>Enter your name here</p>
+  <div id=text>
+    <p>Be careful, Steve, this place is dark. In front of you there's a stair going up. But look Steve!
+    There is also a door leading to the basement. Both place looks like a "I will dismember you and eat your corpse, Steve!"
+    kind of place, but what other choices do you have?</p>
   </div>
 
-  <div id="form">
-    First Name: <input type="text" name="FirstName"></br>
-    Last Name: <input type="text" name="LastName"></br>
-    <button id="submit">Submit</button>
+  <div id=question>
+    <p>So, Steve, upstairs or downstairs?</p>
   </div>
 
-  <div id="yourname"></div>
+  <button id="upstairs" class="button1" onclick="window.location.href='page5.html'">upstairs</button>
+  <button id="downstairs" class="button2">downstairs</right>
 
-  <button id="next" onclick="window.location.href='page2.html'">Next</button>
 
 
 </body>

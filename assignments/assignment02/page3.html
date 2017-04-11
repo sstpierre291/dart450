@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -18,27 +16,27 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
 
   <!-- We include our own script file(s) -->
-  <script src="js/script1.js" content="text/javascript"></script>
+  <script src="js/script3.js" content="text/javascript"></script>
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 
 </head>
 
 <body>
 
-  <h1>Be the hero of this game</h1>
+  <h1>The Creepy Manor</h1>
 
-  <div id=header_index>
-    <p>Enter your name here</p>
+  <div id=text>
+    <p>Steve, You arrived in front of an old creepy manor. The kind of manor that scream "I will kill you painfully, Steve!"
+    Steve, you can't either go inside, or run back home where it is safe.</p>
   </div>
 
-  <div id="form">
-    First Name: <input type="text" name="FirstName"></br>
-    Last Name: <input type="text" name="LastName"></br>
-    <button id="submit">Submit</button>
+  <div id=question>
+    <p>What would it be, Steve? Creepy Manor, or safe home?</p>
   </div>
 
-  <div id="yourname"></div>
+  <button id="home" class="button1">Safe Home</button>
+  <button id="manor" class="button2" onclick="window.location.href='page4.html'">Creepy Manor</right>
 
-  <button id="next" onclick="window.location.href='page2.html'">Next</button>
 
 
 </body>
