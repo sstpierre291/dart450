@@ -30,9 +30,10 @@ function getRandomElement(array) {
 
 //Now, we create another button in the center.
 function createbutton() {
+  if ($('#down').length == 0) {
   //the css proprieties for the third button.
   var button = $('<button id="down" class="button3">downstairs</button>');
   //we had the button to the body.
   $('body').append(button);
-
+}
 };

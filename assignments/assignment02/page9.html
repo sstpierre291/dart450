@@ -1,3 +1,6 @@
+
+
+
 <html lang="en">
 
 <head>
@@ -16,28 +19,35 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
 
   <!-- We include our own script file(s) -->
-  <script src="js/script7.js" content="text/javascript"></script>
+  <script src="js/script9.js" content="text/javascript"></script>
   <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 
 </head>
 
 <body>
 
-  <h1>Inside the door</h1>
+  <div id="true">
+    <h1>OH MY GOD!</h1>
 
-  <div id=text>
-    <p>Oh my god, Steve! We have found a secret lab. Ok, I know that you're curious Steve, but maybe
-    you should try to be careful and do not make a mess.</p>
+    <div id=text>
+      <p>Steve, we have been teleported in a strange place... Look, Steve, a Chest I wonder what it contain!</p>
+    </div>
+
+    <div id=question>
+      <p>Do we open it?</p>
+    </div>
+
+    <form method="get" action="assignment02.zip">
+      <button id="chest" class="button3">Open the chest, Steve</button>
+    </form>
+
   </div>
 
-  <div id=question>
-    <p>Steve, do you think you can be careful when you handled the stuff in here?</p>
+  <div id="fail">
+    <div id=text>
+      <p>Steve! Where the hell are you!</p>
+    </div>
   </div>
-
-  <button id="metal" class="button1" onclick="window.location.href='page3.html'">Be Careful</button>
-  <button id="locked" class="button2" onclick="window.location.href='page8.html'">Make a Mess</button>
-
-
 
 </body>
 

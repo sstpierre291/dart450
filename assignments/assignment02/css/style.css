@@ -116,9 +116,9 @@ button:hover {
 
 /*page5*/
 .buttoncopy {
-  position: relative;
-  left:65%;
-  top:80%;
+  /*position: relative;*/
+  /*left:65%;*/
+  /*top:80%;*/
 
 
 }
@@ -129,4 +129,22 @@ button:hover {
   left:50%;
   top:80%;
   transform:translateX(-50%);
+}
+
+/*page8*/
+#clean {
+  opacity: 0;
+}
+
+#trigger {
+  height: 2000px;
+}
+
+/*page9*/
+#true {
+  display: none;
+}
+
+#fail {
+  display: none;
 }

@@ -32,6 +32,14 @@ function createbutton() {
    for (var i = 0; i<TOTAL_DIVS; i++) {
      //adding the new button.
      var button = $('<button id="door" class="buttoncopy">the door</button>');
+     var x = $('#door').offset().left - 100 + Math.random() * 200;
+     var y = $('#door').offset().top - 100 + Math.random() * 200;
+     console.log(x,y)
+     button.css({
+       position: 'absolute',
+       left: x + 'px',
+       top: y + 'px'
+     });
      $('body').append(button);
      newbutton[i] = button;
    };

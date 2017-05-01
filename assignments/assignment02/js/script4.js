@@ -30,6 +30,7 @@ function position() {
   var x = Math.random() * $(window).width();
   var y = Math.random() * $(window).height();
   $('#downstairs').offset({
+    // position: 'absolute',
     top: y,
     left: x
   });
